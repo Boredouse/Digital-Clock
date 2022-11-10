@@ -1,0 +1,36 @@
+# Digital-Clock
+Using HTML and pure CSS to format page and a slider check box to allow users to change display time between military and analogue in JS.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <title>Clock</title>
+  <link rel="stylesheet" href = "clock1.css">
+  <script src="clock1.js"></script>
+</head>
+
+<body>
+  
+  <div class = "clock">
+    <div id="clock-time">
+      <h1>00 : 00 : 00 AM</h1>
+    </div>
+  
+  <label class="toggle">
+    <span class="onoff">Digital</span>
+    <input type="checkbox" />
+    <span class="slider round"></span>
+  </label>
+
+  
+  
+  
+</body>
+
+</html>
